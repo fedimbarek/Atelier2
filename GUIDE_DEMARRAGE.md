@@ -108,4 +108,4 @@ Après avoir lancé `npm start`, vous devriez voir :
 4. **GradeManager.js** - Validation et calculs
 5. **TodoList.js** - Le plus complet
 
-Bon courage ! 🎓
+
