@@ -5,8 +5,11 @@ import ListManager from './components/ListManager';
 import ColorBox from './components/ColorBox';
 import GradeManager from './components/GradeManager';
 import TodoList from './components/TodoList';
+import Events from './events/events';
+import Event from './events/Event';
 
-function App() {
+
+export default function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -16,31 +19,33 @@ function App() {
 
       <main className="App-main">
         {/* Exercice 1 : Compteur */}
-        <Counter initialCount={10} step={5} />
+        {/* <Counter initialCount={10} step={5} /> */}
 
         {/* Exercice 2 : Liste Dynamique */}
-        <ListManager
+        {/* <ListManager
           initialItems={['React', 'Angular', 'VueJs']}
           placeholder="Ajouter un framework..."
-        />
+        /> */}
 
         {/* Exercice 3 : Changement de Couleur */}
-        <ColorBox
+        {/* <ColorBox
           initialColor="#3498db"
           colorOptions={['#e74c3c', '#3498db', '#2ecc71', '#f39c12', '#9b59b6']}
-        />
+        /> */}
 
         {/* Exercice 4 : Gestionnaire de Notes */}
-        <GradeManager initialNotes={[15, 12.5, 18, 14]} />
+        {/* <GradeManager initialNotes={[15, 12.5, 18, 14]} /> */}
 
         {/* Exercice 5 : Todo List */}
-        <TodoList
+        {/* <TodoList
           initialTasks={[
             { id: 1, name: 'Apprendre React', priority: 'Haute', completed: false },
             { id: 2, name: 'Faire les exercices', priority: 'Moyenne', completed: true },
             { id: 3, name: 'Réviser les hooks', priority: 'Basse', completed: false }
           ]}
-        />
+        /> */}
+        {/* <Events/> */}
+        <Event></Event>
       </main>
 
       <footer className="App-footer">
@@ -50,4 +55,4 @@ function App() {
   );
 }
 
-export default App;
+//export default App;
