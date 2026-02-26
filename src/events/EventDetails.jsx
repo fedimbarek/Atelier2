@@ -1,4 +1,4 @@
-import { useParams } from "react-router-dom";
+/*import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 
 const EventDetails = () => {
@@ -39,3 +39,4 @@ const EventDetails = () => {
 };
 
 export default EventDetails;
+*/

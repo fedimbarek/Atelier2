@@ -1,6 +1,9 @@
 import { createBrowserRouter } from "react-router-dom";
 import { lazy } from "react";
 import RootLayout from "./RootLayout";
+import AddEvent from "./AddEvent";
+import UpdateEvent from "./UpdateEvent";
+import Events from "./events";
 
 // Lazy Loading
 // const Home = lazy(() => import("./Pages/Home"));
@@ -17,7 +20,23 @@ const router = createBrowserRouter([
       { path: "events/:name", element: <EventDetails /> },
       { path: "*", element: <NotFound /> }
     ]
-  }
+  },
+  {
+  path: "events",
+  element: <Events />
+},
+  {
+  path: "events/:id",
+  element: <EventDetails />
+},
+{
+  path: "add",
+  element: <AddEvent/>
+},
+{
+  path: "update/:id",
+  element: <UpdateEvent />
+}
 ]);
 
 export default router;

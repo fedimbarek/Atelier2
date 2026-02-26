@@ -1,0 +1,25 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "name": "Music Festival",
+      "description": "Big music event",
+      "price": 100,
+      "img": "event1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Tech Conference",
+      "description": "Technology event",
+      "price": 200,
+     "img": "event3.jpg"
+    },
+    {
+      "id": "25fe",
+      "name": "dede",
+      "description": "mamam",
+      "price": "12",
+      "img": "https://i.pinimg.com/736x/6b/25/a2/6b25a2fcbcb359842dd30749184d835e.jpg"
+    }
+  ]
+}
